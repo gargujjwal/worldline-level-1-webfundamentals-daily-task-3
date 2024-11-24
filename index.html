@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Solutions Hub</title>
+    <link rel="stylesheet" type="" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">AI Solutions Hub</div>
+        <div class="nav-links">
+          <a href="#products">Products</a>
+          <a href="#case-studies">Case Studies</a>
+          <a href="#blog">Blog</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <div class="hero">
+      <h1>Leading the Future with AI Innovation</h1>
+      <p>
+        Transforming businesses through cutting-edge artificial intelligence
+        solutions
+      </p>
+    </div>
+
+    <div class="container">
+      <section id="products">
+        <h2>Featured AI Solutions</h2>
+        <div class="carousel">
+          <div class="carousel-container">
+            <div class="carousel-item">
+              <h3>AI-Powered Analytics</h3>
+              <img
+                src="/api/placeholder/800/400"
+                alt="AI Analytics Dashboard"
+              />
+              <p>
+                Transform your data into actionable insights with our advanced
+                analytics platform.
+              </p>
+            </div>
+            <div class="carousel-item">
+              <h3>Computer Vision Solutions</h3>
+              <img src="/api/placeholder/800/400" alt="Computer Vision Demo" />
+              <p>
+                State-of-the-art object detection and image recognition systems.
+              </p>
+            </div>
+            <div class="carousel-item">
+              <h3>Natural Language Processing</h3>
+              <img src="/api/placeholder/800/400" alt="NLP System" />
+              <p>
+                Advanced text analysis and processing capabilities for your
+                business needs.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-buttons">
+            <button class="carousel-btn" onclick="prevSlide()">Previous</button>
+            <button class="carousel-btn" onclick="nextSlide()">Next</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="stats" class="stats-container">
+        <div class="stat-card">
+          <h3>Projects Delivered</h3>
+          <div class="stat-value" data-value="500">0</div>
+        </div>
+        <div class="stat-card">
+          <h3>Happy Clients</h3>
+          <div class="stat-value" data-value="200">0</div>
+        </div>
+        <div class="stat-card">
+          <h3>Success Rate</h3>
+          <div class="stat-value" data-value="98">0</div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <form class="contact-form" onsubmit="return validateForm(event)">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" required />
+            <div class="error"></div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" required />
+            <div class="error"></div>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" required></textarea>
+            <div class="error"></div>
+          </div>
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
