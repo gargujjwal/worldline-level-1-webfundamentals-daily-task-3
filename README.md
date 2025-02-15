@@ -23,7 +23,7 @@
 
 ## Deployment
 
-The website is deployed at: [https://ujjwalgarg100204.github.io/worldline-level-1-webfundamentals-daily-task-3]
+The website is deployed at: [https://gargujjwal.github.io/worldline-level-1-webfundamentals-daily-task-3]
 
 ## Author
 
